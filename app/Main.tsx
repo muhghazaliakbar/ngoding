@@ -34,7 +34,7 @@ export default function Home({ posts }) {
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
-                        <div>
+                        <div className="flex flex-col gap-2">
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
@@ -43,7 +43,8 @@ export default function Home({ posts }) {
                               {title}
                             </Link>
                           </h2>
-                          <div className="flex flex-wrap">
+
+                          <div className="flex flex-wrap gap-2">
                             {tags.map((tag) => (
                               <Tag key={tag} text={tag} />
                             ))}
