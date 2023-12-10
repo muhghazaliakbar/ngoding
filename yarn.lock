@@ -3473,6 +3473,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vercel/speed-insights@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@vercel/speed-insights@npm:1.0.1"
+  checksum: 5cca9343ed253a19c359f45393c3a16865f56b9af68d15cd453c0cdfc2a4c048098834976b7067e851e30591e7e0b62adcc042a0a9d44ef28841fb46d9d46b19
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:^2.0.0":
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"
@@ -10949,6 +10956,7 @@ __metadata:
     "@types/react": ^18.2.14
     "@typescript-eslint/eslint-plugin": ^6.1.0
     "@typescript-eslint/parser": ^6.1.0
+    "@vercel/speed-insights": ^1.0.1
     autoprefixer: ^10.4.13
     contentlayer: 0.3.4
     cross-env: ^7.0.3
