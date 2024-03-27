@@ -9439,13 +9439,14 @@ __metadata:
   linkType: hard
 
 "prettier-plugin-tailwindcss@npm:^0.5.0":
-  version: 0.5.9
-  resolution: "prettier-plugin-tailwindcss@npm:0.5.9"
+  version: 0.5.13
+  resolution: "prettier-plugin-tailwindcss@npm:0.5.13"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
     "@shopify/prettier-plugin-liquid": "*"
     "@trivago/prettier-plugin-sort-imports": "*"
+    "@zackad/prettier-plugin-twig-melody": "*"
     prettier: ^3.0
     prettier-plugin-astro: "*"
     prettier-plugin-css-order: "*"
@@ -9454,6 +9455,7 @@ __metadata:
     prettier-plugin-marko: "*"
     prettier-plugin-organize-attributes: "*"
     prettier-plugin-organize-imports: "*"
+    prettier-plugin-sort-imports: "*"
     prettier-plugin-style-order: "*"
     prettier-plugin-svelte: "*"
   peerDependenciesMeta:
@@ -9464,6 +9466,8 @@ __metadata:
     "@shopify/prettier-plugin-liquid":
       optional: true
     "@trivago/prettier-plugin-sort-imports":
+      optional: true
+    "@zackad/prettier-plugin-twig-melody":
       optional: true
     prettier-plugin-astro:
       optional: true
@@ -9479,13 +9483,13 @@ __metadata:
       optional: true
     prettier-plugin-organize-imports:
       optional: true
+    prettier-plugin-sort-imports:
+      optional: true
     prettier-plugin-style-order:
       optional: true
     prettier-plugin-svelte:
       optional: true
-    prettier-plugin-twig-melody:
-      optional: true
-  checksum: 6450ee245c7ce5a1989dae0425ce35304ed6d117c05f9306db27070f0c54b57448f30c9b88450ba263b66cf235932c8992b22199805c6dc2acc3f26c29e69b80
+  checksum: ecbc49535e015fad1686f7fd5e0961d01038c579e97aca27ff6d0401ef7006ab3fd40a623a41d249e9febccd36f54e0ef4ccd4ff49fc1273a4bfffc2a1a6a288
   languageName: node
   linkType: hard
 
