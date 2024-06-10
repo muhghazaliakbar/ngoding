@@ -3499,9 +3499,29 @@ __metadata:
   linkType: hard
 
 "@vercel/speed-insights@npm:^1.0.1":
-  version: 1.0.2
-  resolution: "@vercel/speed-insights@npm:1.0.2"
-  checksum: cbb301dc2bb599024a5f5762e5deecc0ec5fcef1074e7505da5cc5fb824e7d9c5c5e6f13a3460912a5476f99fe53bdb15801e0bbdb385fbc15f98c3a2cb9e237
+  version: 1.0.11
+  resolution: "@vercel/speed-insights@npm:1.0.11"
+  peerDependencies:
+    "@sveltejs/kit": ^1 || ^2
+    next: ">= 13"
+    react: ^18 || ^19
+    svelte: ^4
+    vue: ^3
+    vue-router: ^4
+  peerDependenciesMeta:
+    "@sveltejs/kit":
+      optional: true
+    next:
+      optional: true
+    react:
+      optional: true
+    svelte:
+      optional: true
+    vue:
+      optional: true
+    vue-router:
+      optional: true
+  checksum: 22d6d3d89e30594ce03f7a96c2f74f02bc65aad2781cb2d69b9914e4a275e43e04d4b5a0d6cfae91ef4b3add81920c9fb40876fd89d4ec6867c8a63d47bfcca2
   languageName: node
   linkType: hard
 
