@@ -3490,11 +3490,32 @@ __metadata:
   linkType: hard
 
 "@vercel/analytics@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@vercel/analytics@npm:1.1.1"
-  dependencies:
-    server-only: "npm:^0.0.1"
-  checksum: fece944678360085a5deaea3afdade16cab67097dca6585e02a1c4c67ac3ba91b8e0bb848b7ec686b87757aad763df5bae41ce103bdc16c6e586b9390d0b4c11
+  version: 1.6.1
+  resolution: "@vercel/analytics@npm:1.6.1"
+  peerDependencies:
+    "@remix-run/react": ^2
+    "@sveltejs/kit": ^1 || ^2
+    next: ">= 13"
+    react: ^18 || ^19 || ^19.0.0-rc
+    svelte: ">= 4"
+    vue: ^3
+    vue-router: ^4
+  peerDependenciesMeta:
+    "@remix-run/react":
+      optional: true
+    "@sveltejs/kit":
+      optional: true
+    next:
+      optional: true
+    react:
+      optional: true
+    svelte:
+      optional: true
+    vue:
+      optional: true
+    vue-router:
+      optional: true
+  checksum: 304c6cfef21cdec4c1a2c68c1664e323c1813d733972c9f3603b955ca899655b2a9a0084a34288548e6847ffb802c2916273e4b2bef70e5ce712254a18ae2f3c
   languageName: node
   linkType: hard
 
@@ -10578,13 +10599,6 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 985dec0d372370229a262c737063860fabd4a1c730662c1ea3200a2f649117761a42184c96df62a0e885e76fbd5dace41087d6c1ac0351b13c0df5d6bcb1b5ac
-  languageName: node
-  linkType: hard
-
-"server-only@npm:^0.0.1":
-  version: 0.0.1
-  resolution: "server-only@npm:0.0.1"
-  checksum: c432348956641ea3f460af8dc3765f3a1bdbcf7a1e0205b0756d868e6e6fe8934cdee6bff68401a1dd49ba4a831c75916517a877446d54b334f7de36fa273e53
   languageName: node
   linkType: hard
 
